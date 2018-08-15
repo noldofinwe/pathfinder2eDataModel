@@ -1,0 +1,33 @@
+{
+   "Name":"Dwarf",
+   "Hitpoints":10,
+   "Speed":20,
+   "Size":2,
+   "Boosts":[
+      2,
+      3,
+      6
+   ],
+   "Flaws":[
+      5
+   ],
+   "Languages":[
+      "Common",
+      "Dwarven"
+   ],
+   "Traits":[
+      "Dwarf",
+      "Humanoid"
+   ],
+   "Features":[
+      1,
+      2
+   ],
+   "PossibleAncestryFeats":[
+      2,
+      3,
+      4,
+      5,
+      6
+   ]
+}

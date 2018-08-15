@@ -1,0 +1,17 @@
+{
+   "Id":2,
+   "Name":"Ancestral Hatred",
+   "Level":0,
+   "FeatType":1,
+   "FeatSubType":"Dwarf",
+   "Traits":[ "Dwarf"
+
+   ],
+   "Prerequisites":null,
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"You have shaped your hatred of ancestral dwarven\r\nfoes into a powerful weapon. Choose two of the following creature\r\ntraits: derro, duergar, giant, or orc. You gain a +1 circumstance bonus\r\nto damage rolls against creatures with one of the chosen traits. If a\r\ncreature with a chosen trait critically succeeds at an attack against\r\nyou, this bonus increases to +4 against that creature for 1 minute.",
+   "Special":null
+}

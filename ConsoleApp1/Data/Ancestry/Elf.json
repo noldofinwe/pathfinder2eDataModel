@@ -1,0 +1,28 @@
+{
+   "Name":"Elf",
+   "Hitpoints":6,
+   "Speed":30,
+   "Size":2,
+   "Boosts":[
+      1,
+      4,
+      6
+   ],
+   "Flaws":[
+      2
+   ],
+   "Languages":[
+      "Common",
+      "Elven"
+   ],
+   "Traits":[
+      "Elf",
+      "Humanoid"
+   ],
+   "Features":[
+  
+   ],
+   "PossibleAncestryFeats":[
+
+   ]
+}

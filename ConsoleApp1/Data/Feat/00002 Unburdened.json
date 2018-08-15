@@ -1,0 +1,17 @@
+{
+   "Id":2,
+   "Name":"unburdened",
+   "Level":1,
+   "FeatType":1,
+   "FeatSubType":"Dwarf",
+   "Traits":[
+
+   ],
+   "Prerequisites":null,
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"If your Speed would be reduced by armor\r\nyou wear or the encumbered condition,\r\nyou ignore 5 feet of that reduction.",
+   "Special":null
+}

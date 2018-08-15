@@ -1,0 +1,17 @@
+{
+   "Id":1,
+   "Name":"Darkvision",
+   "Level":1,
+   "FeatType":1,
+   "FeatSubType":"Dwarf",
+   "Traits":[
+
+   ],
+   "Prerequisites":null,
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"You can see in darkness and dim light\r\njust as well as you can see in bright light,\r\nthough your vision in darkness is in black\r\nand white.",
+   "Special":null
+}

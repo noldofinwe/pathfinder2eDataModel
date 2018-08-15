@@ -1,0 +1,10 @@
+{
+   "Name":"Acolyte",
+   "Description":"You spent your early days in a religious monastery or cloister.\r\nYou may have traveled out into the world to spread the message\r\nof your religion or because you cast away the teachings of\r\nyour faith, but deep inside you’ll always carry the lessons\r\nyou learned.\r\nChoose two ability boosts. One must be to Constitution or\r\nWisdom, and one is a free ability boost.\r\nYou gain the Student of the Canon skill feat, and you’re trained\r\nin the Lore skill corresponding to your deity (such as Desna Lore\r\nor Sarenrae Lore).",
+   "SkillFeat":100,
+   "Selection":[
+      2,
+      3
+   ],
+   "LoreSkill":"Deity"
+}
