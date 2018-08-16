@@ -18,7 +18,7 @@ namespace ConsoleApp1
         public Stats Cha { get; set; }
 
         public Ancestry Ancestry { get; set; }
-        public PlayerClass playerClass { get; set; }
+        public PlayerClass PlayerClass { get; set; }
 
         public Dictionary<string, Skill> skills = new Dictionary<string, Skill>();
 
@@ -39,62 +39,62 @@ namespace ConsoleApp1
             Wis.Add("base", 10);
             Int.Add("base", 10);
             Cha.Add("base", 10);
+
+            // Todo: create initial skills
         }
 
-        internal void Add(Ancestry ancestry)
+        public void Add(Ancestry ancestry)
         {
             Ancestry = ancestry;
             foreach (var boost in ancestry.Boosts)
             {
-                switch (boost)
-                {
-                    case AbilityScoreSelection.Str:
-                        Str.Add("ancestry", 2);
-                        break;
-                    case AbilityScoreSelection.Dex:
-                        Dex.Add("ancestry", 2);
-                        break;
-                    case AbilityScoreSelection.Con:
-                        Con.Add("ancestry", 2);
-                        break;
-                    case AbilityScoreSelection.Wis:
-                        Wis.Add("ancestry", 2);
-                        break;
-                    case AbilityScoreSelection.Int:
-                        Int.Add("ancestry", 2);
-                        break;
-                    case AbilityScoreSelection.Cha:
-                        Cha.Add("ancestry", 2);
-                        break;
-                }
+                Boost(boost, "ancestry", 2);
             }
 
             foreach (var flaw in ancestry.Flaws)
             {
-                switch (flaw)
-                {
-                    case AbilityScoreSelection.Str:
-                        Str.Add("ancestryFlaw", -2);
-                        break;
-                    case AbilityScoreSelection.Dex:
-                        Dex.Add("ancestryFlaw", -2);
-                        break;
-                    case AbilityScoreSelection.Con:
-                        Con.Add("ancestryFlaw", -2);
-                        break;
-                    case AbilityScoreSelection.Wis:
-                        Wis.Add("ancestryFlaw", -2);
-                        break;
-                    case AbilityScoreSelection.Int:
-                        Int.Add("ancestryFlaw", -2);
-                        break;
-                    case AbilityScoreSelection.Cha:
-                        Cha.Add("ancestryFlaw", -2);
-                        break;
-                }
+                Boost(flaw, "ancestryFlaw", -2);
             }
-
-
         }
+
+        public void Add(Background background)
+        {
+            skills.Add(string.Format("Lore ({0})", background.LoreSkill), new Skill(Proficiency.Trained, AbilityScoreSelection.Int, true));
+            // Todo: Add Background ability and feat
+        }
+
+        public void Add(PlayerClass playerClass)
+        {
+            PlayerClass = playerClass;
+            Boost(playerClass.KeyAbilityScore, "keyClassAbility", 2);
+            // Todo: set skills
+        }
+
+        private void Boost(AbilityScoreSelection boost, string name, int value)
+        {
+            switch (boost)
+            {
+                case AbilityScoreSelection.Str:
+                    Str.Add(name, value);
+                    break;
+                case AbilityScoreSelection.Dex:
+                    Dex.Add(name, value);
+                    break;
+                case AbilityScoreSelection.Con:
+                    Con.Add(name, value);
+                    break;
+                case AbilityScoreSelection.Wis:
+                    Wis.Add(name, value);
+                    break;
+                case AbilityScoreSelection.Int:
+                    Int.Add(name, value);
+                    break;
+                case AbilityScoreSelection.Cha:
+                    Cha.Add(name, value);
+                    break;
+            }
+        }
+
+      
     }
 }
