@@ -1,0 +1,21 @@
+{
+   "Id":7,
+   "Name":"Hardy",
+   "Level":1,
+   "FeatType":0,
+   "FeatAction":0,
+   "FeatSubType":"Dwarf",
+   
+   "Traits":[ "Dwarf", "Heritage"
+
+   ],
+   "Prerequisites":[],
+    "PrerequisitesText":null,
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"Your blood runs hearty and strong, and you can\r\nshake oﬀ toxins that would lay others low. You\r\ngain poison resistance equal to half your level (minimum 1), and\r\neach of your successful saving throws against an ongoing poison\r\nreduces its stage by 2, or 1 for a virulent poison. Each critical\r\nsuccess against an ongoing poison reduces its stage by 3, or 2\r\nfor a virulent poison.",
+   "Special":null
+}
+

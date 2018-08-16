@@ -1,0 +1,21 @@
+{
+   "Id":6,
+   "Name":"Giant Bane",
+   "Level":1,
+   "FeatType":0,
+   "FeatAction":0,
+   "FeatSubType":"Dwarf",
+   
+   "Traits":[ "Dwarf"
+
+   ],
+   "Prerequisites":[],
+   "PrerequisitesText":null,
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"Your squat stature and your hatred for giantkind\r\ngive you an edge when fghting them. You gain a +1 circumstance\r\nbonus to your Armor Class against giants; Fortitude and Reﬂex\r\nDCs against giants’ attempts to Disarm, Grapple, Shove, or Trip\r\nyou; Survival checks to track giants; Perception checks to notice\r\ngiants; and Stealth checks to avoid being noticed by giants.",
+   "Special":null
+}
+

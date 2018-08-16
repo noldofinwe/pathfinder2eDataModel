@@ -1,0 +1,21 @@
+{
+   "Id":11,
+   "Name":"Weapon Familiarity(Dwarf)",
+   "Level":1,
+   "FeatType":0,
+   "FeatAction":0,
+   "FeatSubType":"Dwarf",
+   "Traits":[ "Dwarf"
+
+   ],
+   "Prerequisites":[ ],
+   "PrerequisitesText":null,
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"Your kin have instilled in you an afnity for hardhitting weapons, and you prefer them to more elegant arms. You\r\nare trained with the battleaxe, pick, and warhammer.\r\nIn addition, you gain access to all uncommon dwarf weapons.\r\nFor the purpose of profciencies, you treat martial dwarf weapons\r\nas simple weapons and exotic dwarf weapons as martial weapons.\r\nMore about weapons can be found on page 178.",
+   "Special":null
+}
+
+

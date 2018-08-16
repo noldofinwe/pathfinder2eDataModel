@@ -1,0 +1,21 @@
+{
+   "Id":12,
+   "Name":"Weapon Cunning(Dwarf)",
+   "Level":5,
+   "FeatType":0,
+   "FeatAction":0,
+   "FeatSubType":"Dwarf",
+   "Traits":[ "Dwarf"
+
+   ],
+   "Prerequisites":[ 11 ],
+   "PrerequisitesText":"Weapon Familiarity (Dwarf)",
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"Whenever you critically hit using a weapon of the axe, hammer,\r\nor pick group, you apply the weapon’s critical specialization eﬀect.",
+   "Special":null
+}
+
+

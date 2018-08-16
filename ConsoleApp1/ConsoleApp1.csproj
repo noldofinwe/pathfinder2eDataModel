@@ -54,6 +54,7 @@
     <Compile Include="Model\Background.cs" />
     <Compile Include="Model\Character.cs" />
     <Compile Include="Model\Feat.cs" />
+    <Compile Include="Model\FeatAction.cs" />
     <Compile Include="Model\FeatType.cs" />
     <Compile Include="Model\Level.cs" />
     <Compile Include="Model\LevelUpBonus.cs" />
@@ -79,6 +80,9 @@
     <None Include="Data\Background\Acolyte.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Data\Class\Cleric.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Data\Feat\00001 Darkvision.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -86,6 +90,33 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Data\Feat\00003 Ancestral Hatred.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Feat\00004 Ancient%27s Blood.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Feat\00005 Boulder Roll.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Feat\00006 Giant Bane.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Feat\00007 Hardy.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Feat\00008 Mountain Roots.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Feat\00009 Rock Runner.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Feat\00010 Stonecunning.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Feat\00011 Weapon Familiarity%28Dwarf%29.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Feat\00012 Weapon Cunning%28Dwarf%29.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />

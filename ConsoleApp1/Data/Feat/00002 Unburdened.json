@@ -1,13 +1,15 @@
 {
    "Id":2,
    "Name":"unburdened",
-   "Level":1,
+   "Level":0,
    "FeatType":1,
+   "FeatAction":0,
    "FeatSubType":"Dwarf",
    "Traits":[
 
    ],
-   "Prerequisites":null,
+   "Prerequisites":[],
+   "PrerequisitesText":null,
    "Frequency":null,
    "Cost":null,
    "Trigger":null,

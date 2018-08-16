@@ -1,0 +1,21 @@
+{
+   "Id":9,
+   "Name":"Rock Runner",
+   "Level":1,
+   "FeatType":0,
+   "FeatAction":0,
+   "FeatSubType":"Dwarf",
+   "Traits":[ "Dwarf"
+
+   ],
+   "Prerequisites":[],
+   "PrerequisitesText":null,
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"Your innate connection to stone makes you\r\nadept at moving across uneven surfaces. When you take the\r\nStep action, you can ignore difcult terrain caused by uneven\r\nground made of stone and earth. In addition, when you use the\r\nAcrobatics skill to Balance (see page 144) on narrow surfaces\r\nor uneven ground made of stone or earth, you aren’t ﬂat-footed,\r\nand you treat a success on the Acrobatics check as if it were a\r\ncritical success.",
+   "Special":null
+}
+
+

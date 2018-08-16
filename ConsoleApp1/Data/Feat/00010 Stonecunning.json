@@ -1,0 +1,21 @@
+{
+   "Id":10,
+   "Name":"Stonecunning",
+   "Level":1,
+   "FeatType":0,
+   "FeatAction":0,
+   "FeatSubType":"Dwarf",
+   "Traits":[ "Dwarf"
+
+   ],
+   "Prerequisites":[],
+   "PrerequisitesText":null,
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"You have a knack for noticing inconsistencies and\r\ncraftsmanship techniques in the stonework around you. You gain\r\na +2 circumstance bonus to Perception checks to notice unusual\r\nstonework. This bonus applies to checks to discover mechanical\r\ntraps made of stone or hidden inside of stone.\r\nIf you aren’t using the Seek action (see page 308) or searching,\r\nthe GM rolls a secret check without the bonus and with a –2\r\ncircumstance penalty for you to notice unusual stonework\r\nanyway (in such cases, this feat takes on the secret trait).",
+   "Special":null
+}
+
+

@@ -1,0 +1,21 @@
+{
+   "Id":5,
+   "Name":"Boulder Roll",
+   "Level":5,
+   "FeatType":0,
+   "FeatAction":2,
+   "FeatSubType":"Dwarf",
+   
+   "Traits":[ "Dwarf"
+
+   ],
+   "Prerequisites": [ 8 ],
+   "PrerequisitesText":"Mountain Roots (see below)",
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"Your dwarven build allows you to push foes around. Take a Step\r\ninto the square of a foe that is your size or smaller, and the foe\r\nmust move into the empty space directly behind it. The foe must\r\nmove even if doing so places it in harm’s way. The foe can attempt\r\nto block your Step by rolling a Fortitude saving throw against your\r\nAthletics DC. If the foe attempts this saving throw, regardless of\r\nthe saving throw’s result, the creature takes bludgeoning damage\r\nequal to your level plus your Strength modifer.\r\nIf the foe can’t move into an empty space (if it is surrounded\r\nby solid objects or other creatures, for example), your Boulder\r\nRoll has no eﬀect.",
+   "Special":null
+}
+

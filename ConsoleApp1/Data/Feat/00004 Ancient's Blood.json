@@ -1,0 +1,20 @@
+{
+   "Id":4,
+   "Name":"Ancient's Blood",
+   "Level":1,
+   "FeatType":0,
+   "FeatAction":4,
+   "FeatSubType":"Dwarf",
+   
+   "Traits":[ "Dwarf", "Heritage"
+
+   ],
+   "Prerequisites":[],
+   "PrerequisitesText":null,
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":"You attempt a saving throw against a\r\nmagical eﬀect.",
+   "Requirements":null,
+   "Description":"Your ancestors’ innate resistance to magic has manifested in you.\r\nYou gain a +2 circumstance bonus to the triggering saving throw.",
+   "Special":"Your resistance hampers your connection to magic items.\r\nReduce your total Resonance Points by 2 (minimum 0). For more\r\ninformation about Resonance Points, see page 376"
+}

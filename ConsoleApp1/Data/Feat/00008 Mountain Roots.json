@@ -1,0 +1,20 @@
+{
+   "Id":8,
+   "Name":"Mountain Roots",
+   "Level":1,
+   "FeatType":0,
+   "FeatAction":0,
+   "FeatSubType":"Dwarf",
+   
+   "Traits":[ "Dwarf"
+
+   ],
+   "Prerequisites":[],
+    "PrerequisitesText":null,
+   "Frequency":null,
+   "Cost":null,
+   "Trigger":null,
+   "Requirements":null,
+   "Description":"ou can plant your feet on the ground to become\r\nnearly immovable. You gain a +2 circumstance bonus to your\r\nFortitude or Reﬂex DC whenever anyone attempts to Shove or\r\nTrip you. This bonus also applies to saves against spells or eﬀects\r\nthat attempt to knock you prone. In addition, if any ability or\r\neﬀect would force you to move 10 feet or more in any direction,\r\nyou are moved only half the distance.",
+   "Special":null
+}Y
