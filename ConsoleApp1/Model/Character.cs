@@ -1,6 +1,6 @@
-﻿using System;
+﻿using ConsoleApp1.Model;
+using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ConsoleApp1
 {
@@ -18,6 +18,9 @@ namespace ConsoleApp1
         public Stats Cha { get; set; }
 
         public Ancestry Ancestry { get; set; }
+        public PlayerClass playerClass { get; set; }
+
+        public Dictionary<string, Skill> skills = new Dictionary<string, Skill>();
 
         public Character(string name)
         {

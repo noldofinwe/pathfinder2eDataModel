@@ -55,6 +55,13 @@
     <Compile Include="Model\Character.cs" />
     <Compile Include="Model\Feat.cs" />
     <Compile Include="Model\FeatType.cs" />
+    <Compile Include="Model\Level.cs" />
+    <Compile Include="Model\LevelUpBonus.cs" />
+    <Compile Include="Model\PlayerClass.cs" />
+    <Compile Include="Model\Proficiency.cs" />
+    <Compile Include="Model\ProficiencyStat.cs" />
+    <Compile Include="Model\Skill.cs" />
+    <Compile Include="Model\SpellCastingType.cs" />
     <Compile Include="PathfinderModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
